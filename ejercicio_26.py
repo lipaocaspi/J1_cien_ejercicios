@@ -4,6 +4,7 @@ c = 0
 r = 0
 c1 = 0
 r1 = 0
+
 for f in range(100, 1000):
     c = (f - (f % 100))/100
     r = f % 100
@@ -11,4 +12,5 @@ for f in range(100, 1000):
     r1 = r % 10
     if (f == (r1 * 100) + (c1 * 10) + c):
         print(f, "", end = "")
+        
 print("")

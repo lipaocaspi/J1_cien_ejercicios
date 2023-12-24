@@ -6,6 +6,7 @@ muj = 0
 
 print("CANTIDAD DE EMPLEADOS : ", end = "")
 empleados = int(input())
+
 for cont in range(1, empleados + 1):
     print("EMPLEADO Nro ", cont, "/", empleados)
     print("NOMBRE : ", end = "")
@@ -20,6 +21,7 @@ for cont in range(1, empleados + 1):
     else:
         tv_m = tv_m + ventas
         muj = muj + 1
+        
 print("TOTAL DE VENTAS HOMBRES : ", tv_h)
 print("TOTAL DE VENTAS MUJERES : ", tv_m)
 print("")

@@ -3,6 +3,7 @@
 divisi = 0
 print("INGRESE NÚMERO : ", end = "")
 num = int(input())
+
 for divi in range(1, num + 1):
     if ((num % divi) == 0):
         divisi = divisi + 1
