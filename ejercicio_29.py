@@ -3,7 +3,7 @@
 sumaP = 0
 sumaI = 0
 
-print("INGRESE NÚMERO : ", end = "")
+print(f"INGRESE NÚMERO : ", end = "")
 num = int(input())
 
 for x in range(1, num + 1):
@@ -12,5 +12,5 @@ for x in range(1, num + 1):
     elif ((x % 2) == 1):
         sumaI = sumaI + x
         
-print("Suma de pares : ", sumaP)
-print("Suma de impares : ", sumaI)
+print(f"Suma de pares : {sumaP}")
+print(f"Suma de impares : {sumaI}")

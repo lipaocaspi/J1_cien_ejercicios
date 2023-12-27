@@ -1,13 +1,18 @@
 # ÁREA Y PERÍMETRO DEL RECTÁNGULO
 
-print("ÁREA DEL RECTÁNGULO")
-print("BASE : ", end = "")
+print(f"ÁREA DEL RECTÁNGULO")
+print(f"BASE : ", end = "")
 b = float(input())
-print("ALTURA : ", end = "")
+print(f"ALTURA : ", end = "")
 h = float(input())
+
 A =  b * h
-print("ÁREA : ", A, "cm.")
-print("")
-print("PERÍMETRO DEL RECTÁNGULO")
+
+print(f"ÁREA : {A} cm.")
+
+print(f"")
+print(f"PERÍMETRO DEL RECTÁNGULO")
+
 P = (2 * h) + (2 * b)
-print("PERIMETRO : ", P, "cm.")
+
+print(f"PERÍMETRO : {P} cm.")

@@ -1,11 +1,13 @@
 # COSTO TOTAL TENIENDO EN CUENTA EL TIEMPO
 
-print("HORAS : ", end = "")
+print(f"HORAS : ", end = "")
 H = int(input())
-print("MINUTOS : ", end = "")
+print(f"MINUTOS : ", end = "")
 M = int(input())
-print("SEGUNDOS : ", end = "")
+print(f"SEGUNDOS : ", end = "")
 S = int(input())
+
 costo = ((H * 3600) + (M * 60) + S) * 0.25
-print("")
-print("COSTO TOTAL : ", costo)
+
+print(f"")
+print(f"COSTO TOTAL : {costo}")

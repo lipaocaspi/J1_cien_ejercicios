@@ -1,6 +1,8 @@
 # CONVERTIR DE CELSIUS A FAHRENHEIT
 
-print("GRADOS CELSIUS : ", end = "")
+print(f"GRADOS CELSIUS : ", end = "")
 C = float(input())
+
 F = (C * (9 / 5)) + 32
-print("A FAHRENHEIT : ", F)
+
+print(f"A FAHRENHEIT : {F}")

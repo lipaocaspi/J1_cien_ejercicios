@@ -7,6 +7,7 @@
 # * * * * * *
 
 XN = 7
+
 for F in range(1, 8):
     serie = ""
     if (F >= 5):

@@ -1,14 +1,19 @@
 # ÁREA Y PERÍMETRO DE UN HEXÁGONO
 
-print("PERÍMETRO : ", end = "")
+print(f"PERÍMETRO : ", end = "")
 P = float(input())
-print("APOTEMA : ", end = "")
+print(f"APOTEMA : ", end = "")
 ap = float(input())
+
 A = (P * ap) / 2
-print("ÁREA : ", A, " cm.")
-print("")
-print("PERÍMETRO DEL HEXÁGONO")
-print("LADO : ", end = "")
+
+print(f"ÁREA : {A} cm.")
+
+print(f"")
+print(f"PERÍMETRO DEL HEXÁGONO")
+print(f"LADO : ", end = "")
 l = float(input())
+
 P = 6 * l
-print("PERIMETRO : ", P, " cm.")
+
+print(f"PERIMETRO : {P} cm.")

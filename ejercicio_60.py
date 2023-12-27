@@ -1,15 +1,20 @@
 # ÁREA Y PERÍMETRO DE UN PENTÁGONO
 
-print("ÁREA DEL PENTÁGONO")
-print("PERÍMETRO : ", end = "")
+print(f"ÁREA DEL PENTÁGONO")
+print(f"PERÍMETRO : ", end = "")
 P = float(input())
-print("APOTEMA : ", end = "")
+print(f"APOTEMA : ", end = "")
 ap = float(input())
+
 A =  (P * ap) / 2
-print("ÁREA : ", A, "cm.")
-print("")
-print("PERÍMETRO DEL PENTÁGONO")
-print("LADO : ", end = "")
+
+print(f"ÁREA : {A} cm.")
+
+print(f"")
+print(f"PERÍMETRO DEL PENTÁGONO")
+print(f"LADO : ", end = "")
 l = float(input())
+
 P = 5 * l
-print("PERÍMETRO : ", P, "cm.")
+
+print(f"PERÍMETRO : {P} cm.")

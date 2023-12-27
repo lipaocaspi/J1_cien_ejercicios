@@ -1,8 +1,8 @@
 # NÚMEROS DE UN RANGO
 
-print("NÚMERO A : ", end = "")
+print(f"NÚMERO A : ", end = "")
 A = int(input())
-print("NÚMERO B : ", end = "")
+print(f"NÚMERO B : ", end = "")
 B = int(input())
 
 if (A < B):

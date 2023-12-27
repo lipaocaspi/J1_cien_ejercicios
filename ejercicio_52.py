@@ -1,23 +1,28 @@
 # ÁREA Y PERÍMETRO DE UN TRAPECIO
 
-print("ÁREA DEL TRAPECIO")
-print("BASE MAYOR : ", end = "")
+print(f"ÁREA DEL TRAPECIO")
+print(f"BASE MAYOR : ", end = "")
 B = float(input())
-print("BASE MENOR : ", end = "")
+print(f"BASE MENOR : ", end = "")
 Bb = float(input())
-print("ALTURA : ", end = "")
+print(f"ALTURA : ", end = "")
 h = float(input())
+
 A =  ((B * Bb) * h) / 2
-print("ÁREA : ", A, "cm.")
-print("")
-print("PERÍMETRO DEL TRAPECIO")
-print("LASO 01 : ", end = "")
+
+print(f"ÁREA : {A} cm.")
+
+print(f"")
+print(f"PERÍMETRO DEL TRAPECIO")
+print(f"LASO 01 : ", end = "")
 l1 = float(input())
-print("LASO 02 : ", end = "")
+print(f"LASO 02 : ", end = "")
 l2 = float(input())
-print("LASO 03 : ", end = "")
+print(f"LASO 03 : ", end = "")
 l3 = float(input())
-print("LASO 04 : ", end = "")
+print(f"LASO 04 : ", end = "")
 l4 = float(input())
+
 P = l1 + l2 + l3 + l4
-print("PERIMETRO : ", P, "cm.")
+
+print(f"PERÍMETRO : {P} cm.")

@@ -6,18 +6,17 @@ sw = 0
 numA = random.randint(1, 21)
 
 for i in range(1, 4):
-    print("ENCUENTRE EL NÚMERO [1-20] : ")
-    num = int(input())
+    num = int(input(f"ENCUENTRE EL NÚMERO [1-20] : "))
     if (num == numA):
-        print("NÚMERO ENCONTRADO")
+        print(f"NÚMERO ENCONTRADO")
         sw = 1
         i = 4
     else:
         if (num > numA):
-            print("INGRESE UN NÚMERO MENOR")
+            print(f"INGRESE UN NÚMERO MENOR")
         else:
-            print("INGRESE UN NÚMERO MAYOR")
-    print("")
+            print(f"INGRESE UN NÚMERO MAYOR")
+    print(f"")
     
 if (sw == 0):
-    print("EL NÚMERO A ENCONTRAR ERA : ", numA)
+    print(f"EL NÚMERO A ENCONTRAR ERA : {numA}")

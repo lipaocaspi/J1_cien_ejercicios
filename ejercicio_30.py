@@ -4,25 +4,25 @@ tv_h = 0
 tv_m = 0
 muj = 0
 
-print("CANTIDAD DE EMPLEADOS : ", end = "")
+print(f"CANTIDAD DE EMPLEADOS : ", end = "")
 empleados = int(input())
 
 for cont in range(1, empleados + 1):
-    print("EMPLEADO Nro ", cont, "/", empleados)
-    print("NOMBRE : ", end = "")
+    print(f"EMPLEADO Nro {cont} / {empleados}")
+    print(f"NOMBRE : ", end = "")
     num = input()
-    print("GÉNERO (H/M) : ", end = "")
+    print(f"GÉNERO (H/M) : ", end = "")
     genero = input()
-    print("VENTAS : ", end = "")
+    print(f"VENTAS : ", end = "")
     ventas = int(input())
-    print("")
+    print(f"")
     if (genero == "H"):
         tv_h = tv_h + ventas
     else:
         tv_m = tv_m + ventas
         muj = muj + 1
         
-print("TOTAL DE VENTAS HOMBRES : ", tv_h)
-print("TOTAL DE VENTAS MUJERES : ", tv_m)
-print("")
-print("PORCENTAJE DE MUJERES : ", (muj * 100)/empleados, "%")
+print(f"TOTAL DE VENTAS HOMBRES : {tv_h}")
+print(f"TOTAL DE VENTAS MUJERES : {tv_m}")
+print(f"")
+print(f"PORCENTAJE DE MUJERES : {(muj * 100)/empleados}%")

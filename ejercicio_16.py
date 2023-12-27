@@ -1,4 +1,4 @@
 # MOSTRAR 20 VECES UN TEXTO
 
 for N in range(1, 21):
-    print("NO DECIR MALAS PALABRAS")
+    print(f"NO DECIR MALAS PALABRAS")
